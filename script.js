@@ -43,6 +43,11 @@ cheat.addEventListener("click", function () {
 
 
 
+// parentbox function
+parent.addEventListener("click", function () {
+  document.location.href = "example.html";
+});
+
 // innerbox function
 child.addEventListener("click", function () {
   document.location.href = "https://www.w3schools.com/w3css/defaulT.asp";
